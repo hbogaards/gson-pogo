@@ -1,0 +1,8 @@
+import gson.pogo.GrandParent
+
+model {
+	Iterable<GrandParent> grandParentList
+}
+
+json tmpl.grandParent(grandParentList ?: [])
+

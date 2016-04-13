@@ -1,0 +1,7 @@
+import gson.pogo.Parent
+
+model {
+	Parent parent
+}
+
+json g.render(parent)

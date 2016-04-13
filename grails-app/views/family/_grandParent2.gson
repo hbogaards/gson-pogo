@@ -1,0 +1,7 @@
+import gson.pogo.GrandParent2
+
+model {
+	GrandParent2 grandParent2
+}
+
+json g.render(grandParent2, [deep: true])
