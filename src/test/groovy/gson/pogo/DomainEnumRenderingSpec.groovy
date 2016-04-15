@@ -32,7 +32,7 @@ json g.render(address, [deep: true])
         def json = new JsonSlurper().parseText(jsonStr)
         println jsonStr
         then:"The JSON is correct"
-        json.street == 'Dropstraat 1'
+        json.street == 'Dorpstraat 1'
         json.city == 'Ons Dorp'
         json.state == 'ZH'
     }
